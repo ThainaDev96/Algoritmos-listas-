@@ -1,3 +1,7 @@
+
+
+
+
 /*
 6) O preço de um automóvel é calculado pela soma do preço de fábrica
 com o preço dos impostos (45% do preço de fábrica) e a percentagem
@@ -25,5 +29,6 @@ int main(void)
     printf("O preco final é: %f\n", soma);
     
 }
+
 
 
