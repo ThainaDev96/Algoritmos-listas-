@@ -1,6 +1,6 @@
-/*6) O preÁo de um automÛvel È calculado pela soma do preÁo de f·brica com o preÁo dos impostos
-(45% do preÁo de f·brica) e a percentagem do revendedor (28% do preÁo de f·brica ) FaÁa um
-programa que leia o preÁo de f·brica e imprima o seu preÁo final.*/
+/*6) O pre√ßo de um autom√≥vel √© calculado pela soma do pre√ßo de f√°brica com o pre√ßo dos impostos
+(45% do pre√ßo de f√°brica) e a percentagem do revendedor (28% do pre√ßo de f√°brica ) 
+Fa√ßa um programa que leia o pre√ßo de f√°brica e imprima o seu pre√ßo final.*/
 
 #include<stdio.h>
 int main(void)
@@ -10,12 +10,13 @@ int main(void)
     printf("Informe o preco de fabrica: ");
     scanf("%f", &fabrica);
     
-   imposto=(fabrica*45)/100;//o programa n„o lÍ porcentagem ent„o deve-se dividir por 100 para obter em forma decimal. 45% = 0.45 fabrica * (45/100);
+   imposto=(fabrica*45)/100;//o programa n√£o l√™ porcentagem ent√£o deve-se dividir por 100 para obter em forma decimal. 45% = 0.45 fabrica * (45/100);
    
    comissao=(fabrica*28)/100;//28% = 0.28 . pode ser escrito tambem: fabrica * (28/100);
     
-    soma = fabrica + imposto + comissao;//soma apÛs multiplicaÁ„o
+    soma = fabrica + imposto + comissao;//soma ap√≥s multiplica√ß√£o
     
-    printf("O preco final È: %f\n", soma);
+    printf("O preco final √©: %f\n", soma);
     
 }
+
